@@ -1,0 +1,150 @@
+*{
+  margin: 0px;
+}
+
+hr{
+  border: 0;
+  width: 90%;
+  margin: 0 auto;
+  border-top: thick dotted;
+  color: #494949;
+  text-align: center;
+}
+
+.top{
+  display: block;
+  padding: 0.5em;
+  background: #f39312;
+}
+
+.top img{
+  width: 75vw;
+}
+
+.title img{
+  width: 100vw;
+  margin-bottom: 30px;
+}
+
+.menu h2{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #494949;
+}
+
+.menu ul{
+  text-align: center;
+  padding: 0;
+}
+
+.menu li{
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.menu h4{
+  font-size: 5px;
+  text-align: center;
+  color: #494949;
+}
+
+.menu img{
+  width: 70px;
+}
+
+.sp_a{
+  margin-bottom: 70px;
+  margin-top: 3px;
+}
+
+.sp_b{
+  margin-top: 70px;
+  padding-left: 5px;
+}
+
+.sys, .ap, .nyusi, .bosyu, .syutugan{
+  margin-top: 30px;
+}
+
+.sys img{
+  margin-left: 30px;
+  float:left;
+  margin-bottom: 150px;
+  position: relative;
+}
+
+.ap img{
+  margin-left: 30px;
+  float:left;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.sys h3, .ap h3, .nyusi h3, .bosyu h3, .syutugan h3{
+  text-indent: 0.5em;
+  color: #494949;
+}
+
+.sys p, .ap p, .nyusi p, .bosyu p, .syutugan p{
+  font-size: 12px;
+  text-indent: 1em;
+  color: #494949;
+}
+
+.p1{
+  margin-bottom: 10px;
+}
+
+.button_1, .button_2, .button_3, .button_4, .button_5, .button_6, .button_7,.button_8, .button_9, .button_10{
+  display: inline-block;
+  font-weight: middle;
+  padding: 0.25em 0.5em;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 15px;
+  transition: .4s;
+}
+
+.button_1, .button_2, .button_3{
+  background: #953964;
+}
+
+.button_4{
+  background-color: #a76086;
+}
+
+.nyusi img{
+  margin-left: 30px;
+  float:left;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.button_5, .button_6, .button_7, .button_8{
+  background-color: #a4606a;
+}
+
+.bosyu img{
+  margin-left: 30px;
+  float:left;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.button_9{
+  background-color: #b17e82;
+}
+
+.syutugan img{
+  margin-left: 30px;
+  float:left;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.button_10{
+  background-color: #dfc1c1;
+}
