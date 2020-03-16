@@ -1,5 +1,10 @@
+@import url("https://use.typekit.net/aco6sef.css");
+
 *{
   margin: 0px;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 hr{
@@ -45,7 +50,7 @@ hr{
 }
 
 .menu h4{
-  font-size: 5px;
+  font-size: 10px;
   text-align: center;
   color: #494949;
 }
@@ -85,12 +90,16 @@ hr{
 .sys h3, .ap h3, .nyusi h3, .bosyu h3, .syutugan h3{
   text-indent: 0.5em;
   color: #494949;
+  margin-bottom: 10px;
 }
 
 .sys p, .ap p, .nyusi p, .bosyu p, .syutugan p{
   font-size: 12px;
   text-indent: 1em;
   color: #494949;
+  font-family: heisei-kaku-gothic-std, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .p1{
@@ -209,6 +218,7 @@ hr{
     opacity: 0.5; /*黒背景部分透過度*/
     z-index: 999;
 }
+
 
 .ham a{
   text-decoration: none;
