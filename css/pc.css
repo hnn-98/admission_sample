@@ -164,6 +164,41 @@ hr{
 }
 
 
+.ham a{
+  text-decoration: none;
+}
+
+.ham h4{
+  color: #fff;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.ham p{
+  color: #fff;
+  font-weight: lighter;
+  text-indent: 1em;
+}
+
+.ham li{
+  display: inline-block;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ham hr{
+  border: 0;
+  width: 90%;
+  margin: 8px auto;
+  border-top: thick dotted;
+  color: #fff;
+  text-align: left;
+}
+
+
+
+
 #ham-menu {
     background-color: #353535; /*メニュー背景色*/
     box-sizing: border-box;
@@ -219,37 +254,4 @@ hr{
 #menu-cb:checked ~ #menu-background {
     opacity: 0.5;
     z-index: 999;
-}
-
-
-.ham a{
-  text-decoration: none;
-}
-
-.ham h4{
-  color: #fff;
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-.ham p{
-  color: #fff;
-  font-weight: lighter;
-  text-indent: 1em;
-}
-
-.ham li{
-  display: inline-block;
-  list-style: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.ham hr{
-  border: 0;
-  width: 90%;
-  margin: 8px auto;
-  border-top: thick dotted;
-  color: #fff;
-  text-align: left;
 }
